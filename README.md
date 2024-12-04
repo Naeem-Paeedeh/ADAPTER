@@ -2,11 +2,11 @@
 
 This repository contains the implementation of the ADAPTER algorithm from the "Cross-Domain Few-Shot Learning via Adaptive Transformer Networks" paper.
 
-In the following, it is explained how to prepare the datasets and run the code.
+The following section explains how to prepare the datasets and run the code.
 
 ## Requirements
 
-For the miniImageNet experiments, you can use the Python version 3.10.9. We installed the torch v. 1.13.1-3 , numpy v. 1.24.1-1 , torchvision v. 0.14.1-1 , pandas v. 1.5.3-1 , Pillow v. 9.4.0-2, and tqdm==4.64.1-2 packages in Manjaro linux. tqdm can be installed with:
+For the miniImageNet experiments, you can use the Python version 3.10.9. We installed the torch v. 1.13.1-3, numpy v. 1.24.1-1, torchvision v. 0.14.1-1, pandas v. 1.5.3-1, Pillow v. 9.4.0-2, and tqdm==4.64.1-2 packages in Manjaro Linux. tqdm can be installed with:
 
 ```bash
 pip install tqdm
@@ -47,3 +47,6 @@ Do the following to perform the training and evaluation:
 4- Run the training script.
 
 5- Run the evaluation script.
+
+## Pre-trained weights and Log files
+You can download the pre-trained weights and log files from [Google Drive](https://drive.google.com/drive/folders/1ADAPb9MULM8ZQEMLtrNPgR6fgElrtDdr?usp=sharing).
